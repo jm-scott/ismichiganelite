@@ -7,14 +7,28 @@ body {
     text-align: center;
 }
 
+/* Opaque background image hack*/
+body::after {
+    content: "";
+    background-image: url(jim.jpg);
+    background-size: cover;
+    opacity: 0.35;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
 .title {
     font-size: 6em;
-    margin: 5%;
+    margin: 1%;
 }
 
 .category {
-    margin: 2%;
-    font-size: 3.5em;
+    margin: 2.5%;
+    font-size: 4em;
 }
 
 .answer {
