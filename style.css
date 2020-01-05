@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    font-family: "Helventiva Neue", Arial;
+}
+
+body {
+    text-align: center;
+}
+
+.title {
+    font-size: 6em;
+    margin: 5%;
+}
+
+.category {
+    margin: 2%;
+    font-size: 3.5em;
+}
+
+.answer {
+    font-weight: bold;
+}
+
+.no {
+    color: red;
+}
+
+.yes {
+    color: green;
+}
