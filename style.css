@@ -26,9 +26,14 @@ body::after {
     margin: 1%;
 }
 
+.main {
+    height: 100%;
+    font-size: 6.5vh;
+}
+
 .category {
     margin: 2.5%;
-    font-size: 4em;
+
 }
 
 .answer {
