@@ -23,18 +23,17 @@ body::after {
 }
 
 .title {
-    font-size: 6em;
+    font-size: 10vmin;
     margin: 1%;
 }
 
 .main {
     height: 100%;
-    font-size: 6.5vh;
+    font-size: 5vmin;
 }
 
 .category {
     margin: 2.5%;
-
 }
 
 .answer {
