@@ -23,13 +23,13 @@ body::after {
 }
 
 .title {
-    font-size: 10vmin;
+    font-size: 8vh;
     margin: 1%;
 }
 
 .main {
     height: 100%;
-    font-size: 5vmin;
+    font-size: 4vh;
 }
 
 .category {
