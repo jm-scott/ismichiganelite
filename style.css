@@ -47,3 +47,7 @@ body::after {
 .yes {
     color: green;
 }
+
+.postponed {
+    color: orange;
+}
