@@ -4,7 +4,11 @@ html {
 }
 
 body {
+    height: 100%;
+    margin: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Opaque background image hack*/
@@ -13,7 +17,7 @@ body::after {
     background-image: url(jim.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.35;
+    opacity: 0.33;
     top: 0;
     left: 0;
     bottom: 0;
@@ -25,19 +29,38 @@ body::after {
 .title {
     font-size: 8vh;
     margin: 1%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    flex: 0 1 auto;
 }
 
 .main {
-    height: 100%;
-    font-size: 4vh;
+    /* font-size: 4vh; */
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: inherit;
 }
 
 .category {
-    margin: 2.5%;
+    font-size: 6vh;
+    display: flex;
+    flex-direction: inherit;
+    flex: 1 0 auto;
+    margin: 1%;
+}
+
+.question {
+    flex: 1 0 auto;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .answer {
+    flex: 1 0 auto;
     font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .no {
