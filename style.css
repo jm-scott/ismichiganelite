@@ -14,7 +14,7 @@ body {
 /* Opaque background image hack*/
 body::after {
     content: "";
-    background-image: url(jim.jpg);
+    background-image: url(juwan.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.33;
