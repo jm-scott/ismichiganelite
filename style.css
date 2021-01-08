@@ -42,7 +42,7 @@ body::after {
 }
 
 .category {
-    font-size: 7vh;
+    font-size: 6.5vh;
     display: flex;
     flex-direction: inherit;
     flex: 1 0 auto;
