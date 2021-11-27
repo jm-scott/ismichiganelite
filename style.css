@@ -52,7 +52,7 @@ body::after {
 .question {
     flex: 1 0 auto;
     color: white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 }
 
